@@ -7,5 +7,7 @@ appId: https://app.agendapro.com/bookings
     id: "add-reservation"
 - tapOn:
     id: "client-search"
+- inputText: "Juan"
+
 - tapOn: "Juan Pérez"
 - tapOn: "Guardar reserva"

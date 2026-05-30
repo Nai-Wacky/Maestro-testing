@@ -1,7 +1,5 @@
 appId: https://app.agendapro.com/bookings
 ---
-- launchApp:
-    clearState: true
 - tapOn: "Ventas"
 - tapOn: "Detalle de ventas"
 

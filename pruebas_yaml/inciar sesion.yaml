@@ -1,0 +1,20 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+
+#iniciar sesión
+- tapOn:
+    id: "email"
+- eraseText
+- inputText: "gonzalezsosacarlosalberto+prueba1@gmail.com"
+- tapOn:
+    id: "password"
+- eraseText
+- inputText: "carlos2003"
+- tapOn: "Log in"
+
+#Comprobamos que no deje ingresar con un codigo no valido
+- tapOn: "Ingresa el código de 6 dígitos"
+- inputText: "119229"
+
+- tapOn: "Verificar"

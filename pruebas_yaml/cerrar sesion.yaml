@@ -1,0 +1,8 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+# Cerrar la sesión
+- launchApp
+- tapOn:
+    id: "profile-option"
+- tapOn: "Cerrar Sesión"
