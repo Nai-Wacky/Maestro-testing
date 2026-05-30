@@ -1,0 +1,50 @@
+appId: https://agendapro.com/mx
+---
+#Entramos en el registro
+- launchApp:
+    clearState: true
+- tapOn: "Prueba gratis "
+
+#Comprobamos que pida un apellido
+- tapOn:
+    id: "fullName"
+- inputText: "Juan"
+#Comprobamos que pida un correo valido
+- tapOn:
+    id: "loginEmail"
+- inputText: "usuario@@correo"
+- extendedWaitUntil:
+    visible: ""
+    timeout: 10000
+
+#Nos saltamos a proposito el Teléfono para comprobar si lo pide
+
+#Comprobamos que la contraseña tenga caracteristicas obligatorias 
+# Mayusculas, numeros y simbolos
+- tapOn:
+    id: "loginPassword"
+- inputText: "123456"
+- extendedWaitUntil:
+    visible: ""
+    timeout: 10000
+#Comprobamos si con los datos que dimos nos lo hace valido
+- tapOn:
+    id: "form_submit"
+#Como nos pide el tipo de negocio lo vamos a colocar para comprobar
+#Si despues de esto hace valido el formulario
+- tapOn:
+    id: "typeMerchant"
+- tapOn: "Barbería"
+
+#Comprobamos si nos pide la cantidad de profesionales
+- tapOn:
+    id: "form_submit"
+
+
+
+
+
+
+
+
+

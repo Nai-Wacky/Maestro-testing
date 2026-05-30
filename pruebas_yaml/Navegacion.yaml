@@ -1,0 +1,40 @@
+appId: https://app.agendapro.com/bookings
+---
+- launchApp:
+    clearState: true
+- tapOn: "Ventas"
+- tapOn: "Detalle de ventas"
+
+- tapOn: "Ventas"
+- tapOn: "Planes"
+
+- tapOn: "Ventas"
+- tapOn: "Propinas"
+
+- tapOn: "Clientes"
+- tapOn: "Base de Clientes"
+
+- tapOn: "Clientes"
+- tapOn: "Recordatorios"
+
+- tapOn: "Reportes"
+- tapOn: "Resumen"
+
+- tapOn: "Administración"
+- tapOn: "Perfil"
+
+- tapOn: "Administración"
+- tapOn: "Servicios"
+
+- tapOn: "Agenda"
+
+- tapOn:
+    id: "profile-option"
+- tapOn: "Mi Perfil"
+
+
+
+
+
+
+

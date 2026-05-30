@@ -1,0 +1,27 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+# Cerrar la sesión
+- launchApp
+- tapOn:
+    id: "profile-option"
+- tapOn: "Cerrar Sesión"
+
+#iniciar sesión
+- tapOn:
+    id: "email"
+- eraseText
+- inputText: "panchoserranof"
+- tapOn:
+    id: "password"
+- eraseText
+- inputText: "Agendaproprueba1$"
+- tapOn: "Ingresar"
+
+#Comprobamos que no deje ingresar con un codigo no valido
+- tapOn: "Ingresa el código de 6 dígitos"
+- inputText: "111111"
+
+- tapOn: "Verificar"
+#- inputText: "panchoserranofeo+prueba1@gmail.com"
+#- inputText: "Agendaproprueba1$"

@@ -1,0 +1,29 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+- tapOn: "Administración"
+
+- tapOn: "Servicios"
+
+- tapOn:
+    id: "add-item"
+
+- tapOn:
+    id: "service-option"
+
+- tapOn:
+    id: "serviceName"
+
+- inputText: "Facial"
+
+- tapOn:
+    id: "price-input-container"
+
+- inputText: "80"
+
+- tapOn:
+    id: "serviceDuration"
+
+- inputText: "25"
+
+- tapOn: "Guardar"

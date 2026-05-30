@@ -1,0 +1,11 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+- tapOn: "Administración"
+
+- tapOn: "Servicios"
+
+- tapOn:
+    id: "dropdown-btn"
+- tapOn: "Eliminar"
+- tapOn: "ELIMINAR"

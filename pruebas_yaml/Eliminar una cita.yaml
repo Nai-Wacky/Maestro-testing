@@ -1,0 +1,9 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+- tapOn:
+    id: "event-title"
+- tapOn:
+    id: "delete-booking-btn"
+- tapOn:
+    id: "confirm-cancel-booking"

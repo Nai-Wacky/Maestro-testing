@@ -1,0 +1,17 @@
+appId: https://app.agendapro.com/bookings
+--- 
+
+- tapOn: "Clientes"
+
+- tapOn: "Base de Clientes"
+
+- tapOn:
+    id: "share-marketplace-wa"
+
+- tapOn: "Escribe la palabra ELIMINAR"
+
+- inputText: "ELIMINAR"
+
+- tapOn:
+    text: "Eliminar"
+    index: 1

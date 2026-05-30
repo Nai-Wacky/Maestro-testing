@@ -1,0 +1,79 @@
+appId: https://app.agendapro.com/bookings
+--- 
+- tapOn: "Clientes"
+
+- tapOn: "Base de Clientes"
+
+- tapOn: "Nuevo cliente"
+
+- tapOn:
+    id: "firstName"
+- inputText: "Carlos"
+
+- tapOn: 
+    id: "lastName"
+- inputText: "Gonzalez"
+
+
+- tapOn:
+    id: "age"
+- eraseText
+- inputText: "22"
+
+- tapOn:
+    id: "identificationNumber"
+- inputText: "INE123456789"
+
+- tapOn:
+    id: "gender-Select"
+- tapOn:
+    id: "gender-Select-Option-2"
+
+- tapOn:
+    id: "recordNumber"
+- inputText: "1001"
+
+
+- tapOn: "Número de cliente"
+
+- swipe:
+    start: 50%, 70%
+    end: 50%, 40%
+
+- tapOn: "Correo electrónico"
+
+
+
+- tapOn: "+52"
+- inputText: "75312312334"
+
+- tapOn:
+    id: "address"
+- inputText: "Calle del tec 22"
+
+- tapOn:
+    id: "city"
+- inputText: "Morelia"
+
+- tapOn: "Guardar"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
